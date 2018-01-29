@@ -1,0 +1,11 @@
+@mixin breakpoint ($break) {
+    @if $break == small {
+        @media screen and (min-width: 20em) {@content;}
+    }
+    @else if $break == medium {
+        @media screen and (min-width: 40em) {@content;}
+    }
+    @else if $break == large {
+        @media screen and (min-width:47.5) {@content;}
+    }
+}
