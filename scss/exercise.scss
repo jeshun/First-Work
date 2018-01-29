@@ -1,0 +1,7 @@
+@mixin All($bg:black, $color: white, $FS:18px){
+    background-color : $bg;
+    color : $color;
+    font-size: $FS;
+}
+
+
